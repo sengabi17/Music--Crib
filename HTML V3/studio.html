@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Studio Services — Music Crib</title>
+  <link rel="stylesheet" href="music-style.css">
+  <meta name="description" content="Professional studio services at Music Crib">
+  <link rel="icon" href="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=64&h=64&fit=crop">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container nav-inner">
+      <div class="brand">🎵 Music Crib</div>
+      <ul class="nav-links">
+        <li><a href="music.html">Home</a></li>
+        <li><a href="beats.html">Beats</a></li>
+        <li><a href="rappers.html">Rappers</a></li>
+        <li><a href="studio.html">Studio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="cart-btn" id="navCartBtn" title="Shopping Cart">
+          🛒
+          <span class="cart-badge" id="cartBadge" style="display: none;">0</span>
+        </button>
+        <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="section studio">
+      <div class="container">
+        <h2>Studio Services</h2>
+        <p class="section-sub">Full production, mixing, mastering, and features.</p>
+        <div class="grid services-grid">
+          <div class="service-card">
+            <div class="service-icon">🎵</div>
+            <h3>Beat Production</h3>
+            <p>Custom beats tailored to your style. Unlimited revisions until perfect.</p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">🎚️</div>
+            <h3>Mixing & Mastering</h3>
+            <p>Professional mixing and mastering to make your track radio-ready.</p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">🎤</div>
+            <h3>Feature Collaborations</h3>
+            <p>Connect with talented rappers and singers for your next banger.</p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">🎧</div>
+            <h3>Producer Coaching</h3>
+            <p>Learn production from industry pros. One-on-one sessions available.</p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">📀</div>
+            <h3>Distribution</h3>
+            <p>Get your music on Spotify, Apple Music, YouTube, and all major platforms.</p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">💿</div>
+            <h3>Licensing</h3>
+            <p>Beats available for commercial, sync, and exclusive licensing.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Notification Toast -->
+  <div id="notification" class="notification" style="display: none;">
+    <div class="notification-content">
+      <span id="notificationIcon"></span>
+      <span id="notificationMessage"></span>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>© 2025 Music Crib</div>
+      <nav class="foot-nav"><a href="beats.html">Beats</a> · <a href="rappers.html">Rappers</a> · <a href="studio.html">Studio</a></nav>
+    </div>
+  </footer>
+
+  <script src="music-script.js"></script>
+</body>
+</html>

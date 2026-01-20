@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Music Crib — Beats, Rappers & Studio</title>
+  <link rel="stylesheet" href="music-style.css">
+  <meta name="description" content="Music Crib - Premium beats, rapper features, and studio services.">
+  <link rel="icon" href="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=64&h=64&fit=crop">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container nav-inner">
+      <div class="brand">🎵 Music Crib</div>
+      <ul class="nav-links">
+        <li><a href="music.html">Home</a></li>
+        <li><a href="beats.html">Beats</a></li>
+        <li><a href="rappers.html">Rappers</a></li>
+        <li><a href="studio.html">Studio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="cart-btn" id="navCartBtn" title="Shopping Cart">
+          🛒
+          <span class="cart-badge" id="cartBadge" style="display: none;">0</span>
+        </button>
+        <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <header id="home" class="hero">
+    <div class="hero-inner container">
+      <h1>Music Crib</h1>
+      <p class="lead">Premium beats, legendary rappers, and world-class production.</p>
+      <div class="hero-actions">
+        <a class="btn" href="#beats">Browse Beats</a>
+        <a class="btn ghost" href="#rappers">Find Rappers</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="beats" class="section beats">
+      <div class="container">
+        <h2>Our Beats</h2>
+        <p class="section-sub">Fire production—trap, hip-hop, drill, and more.</p>
+        <div class="grid beats-grid">
+          <div class="beat-card" data-audio="./audio/trap-vibe.mp3">
+            <div class="beat-image">
+              <img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&w=600&q=80" alt="Trap beat">
+              <button class="play-btn" aria-label="Play sample">▶</button>
+            </div>
+            <div class="beat-info">
+              <h3>Trap Vibe</h3>
+              <p class="beat-price">$49</p>
+              <p>Hard-hitting 808s with sick snares. Perfect for street anthems.</p>
+              <button class="btn-small">License</button>
+            </div>
+          </div>
+
+          <div class="beat-card" data-audio="./audio/Drill Flow.mp3">
+            <div class="beat-image">
+              <img src="./60412186832a2.jpg" alt="Drill beat">
+              <button class="play-btn" aria-label="Play sample">▶</button>
+            </div>
+            <div class="beat-info">
+              <h3>Drill Flow</h3>
+              <p class="beat-price">$59</p>
+              <p>Dark, aggressive drill production with hypnotic melodies.</p>
+              <button class="btn-small">License</button>
+            </div>
+          </div>
+
+          <div class="beat-card" data-audio="./audio/lo-fi chill.mp3">
+            <div class="beat-image">
+              <img src="./Music Thumbnails.jpg" alt="Lo-fi beat">
+              <button class="play-btn" aria-label="Play sample">▶</button>
+            </div>
+            <div class="beat-info">
+              <h3>Lo-Fi Chill</h3>
+              <p class="beat-price">$39</p>
+              <p>Smooth, jazzy vibes perfect for introspective tracks.</p>
+              <button class="btn-small">License</button>
+            </div>
+          </div>
+
+          <div class="beat-card" data-audio="./audio/classic-boombap.mp3">
+            <div class="beat-image">
+              <img src="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&w=600&q=80" alt="Boom bap beat">
+              <button class="play-btn" aria-label="Play sample">▶</button>
+            </div>
+            <div class="beat-info">
+              <h3>Classic Boom Bap</h3>
+              <p class="beat-price">$44</p>
+              <p>Golden era hip-hop inspired beats with boom-bap drums.</p>
+              <button class="btn-small">License</button>
+            </div>
+          </div>
+
+          <div class="beat-card" data-audio="./audio/deep-rap.mp3">
+            <div class="beat-image">
+              <img src="https://images.unsplash.com/photo-1459749411175-04bf5292ceea?auto=format&fit=crop&w=600&q=80" alt="Rap beat">
+              <button class="play-btn" aria-label="Play sample">▶</button>
+            </div>
+            <div class="beat-info">
+              <h3>Deep Rap</h3>
+              <p class="beat-price">$54</p>
+              <p>Atmospheric production with dark synths and heavy kicks.</p>
+              <button class="btn-small">License</button>
+            </div>
+          </div>
+
+          <div class="beat-card" data-audio="./audio/psycho-strings.mp3">
+            <div class="beat-image">
+              <img src="./free-orchestral-strings-one-640x384.png" alt="Psycho beat">
+              <button class="play-btn" aria-label="Play sample">▶</button>
+            </div>
+            <div class="beat-info">
+              <h3>Psycho Strings</h3>
+              <p class="beat-price">$64</p>
+              <p>Orchestral elements meets hard rap. Experimental and fresh.</p>
+              <button class="btn-small">License</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="rappers" class="section rappers">
+      <div class="container">
+        <h2>Featured Rappers</h2>
+        <p class="section-sub">Rising stars looking for fire beats and collabs.</p>
+        <div class="grid rappers-grid">
+          <article class="rapper-card">
+            <img src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=600&q=80" alt="Rapper K">
+            <div class="rapper-info">
+              <h3>Rapper K</h3>
+              <p class="tag">Trap | Street</p>
+              <p>Hard-hitting delivery with street credibility. Looking for trap and drill beats.</p>
+              <button class="btn-small">Collab</button>
+            </div>
+          </article>
+
+          <article class="rapper-card">
+            <img src="https://images.unsplash.com/photo-1511379938547-c1f69b13d835?auto=format&fit=crop&w=600&q=80" alt="MC Flow">
+            <div class="rapper-info">
+              <h3>MC Flow</h3>
+              <p class="tag">Boom Bap | Conscious</p>
+              <p>Lyrical genius with conscious themes. Seeking classic hip-hop production.</p>
+              <button class="btn-small">Collab</button>
+            </div>
+          </article>
+
+          <article class="rapper-card">
+            <img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&w=600&q=80" alt="Shadow">
+            <div class="rapper-info">
+              <h3>Shadow</h3>
+              <p class="tag">Dark Drill | Experimental</p>
+              <p>Moody, atmospheric rapper. Interested in lo-fi and psycho beats.</p>
+              <button class="btn-small">Collab</button>
+            </div>
+          </article>
+
+          <article class="rapper-card">
+            <img src="https://images.unsplash.com/photo-1459749411175-04bf5292ceea?auto=format&fit=crop&w=600&q=80" alt="Blaze">
+            <div class="rapper-info">
+              <h3>Blaze</h3>
+              <p class="tag">Freestyle | Hype</p>
+              <p>High-energy performer with freestyle skills. Loves energetic trap beats.</p>
+              <button class="btn-small">Collab</button>
+            </div>
+          </article>
+
+          <article class="rapper-card">
+            <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=600&q=80" alt="Vibe">
+            <div class="rapper-info">
+              <h3>Vibe</h3>
+              <p class="tag">Emo Rap | Melodic</p>
+              <p>Emotional storyteller with melodic flow. Seeking melodic and chill beats.</p>
+              <button class="btn-small">Collab</button>
+            </div>
+          </article>
+
+          <article class="rapper-card">
+            <img src="https://images.unsplash.com/photo-1511379938547-c1f69b13d835?auto=format&fit=crop&w=600&q=80" alt="Echo">
+            <div class="rapper-info">
+              <h3>Echo</h3>
+              <p class="tag">Double Time | Technical</p>
+              <p>Technical rapper with crazy word play. Wants complex, intricate beats.</p>
+              <button class="btn-small">Collab</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="studio" class="section studio">
+      <div class="container">
+        <h2>Studio Services</h2>
+        <p class="section-sub">Full production, mixing, mastering, and features.</p>
+        <div class="grid services-grid">
+          <div class="service-card">
+            <div class="service-icon">🎵</div>
+            <h3>Beat Production</h3>
+            <p>Custom beats tailored to your style. Unlimited revisions until perfect.</p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">🎚️</div>
+            <h3>Mixing & Mastering</h3>
+            <p>Professional mixing and mastering to make your track radio-ready.</p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">🎤</div>
+            <h3>Feature Collaborations</h3>
+            <p>Connect with talented rappers and singers for your next banger.</p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">🎧</div>
+            <h3>Producer Coaching</h3>
+            <p>Learn production from industry pros. One-on-one sessions available.</p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">📀</div>
+            <h3>Distribution</h3>
+            <p>Get your music on Spotify, Apple Music, YouTube, and all major platforms.</p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">💿</div>
+            <h3>Licensing</h3>
+            <p>Beats available for commercial, sync, and exclusive licensing.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container">
+        <h2>Get In Touch</h2>
+        <p class="section-sub">Ready to make some hits? Let's connect.</p>
+        
+        <div class="contact-wrapper">
+          <div class="contact-info">
+            <h3>Contact Info</h3>
+            <div class="info-item">
+              <span class="icon">📞</span>
+              <p>+27 833 245 413</p>
+            </div>
+            <div class="info-item">
+              <span class="icon">📧</span>
+              <p>hello@musiccrib.com</p>
+            </div>
+            <div class="info-item">
+              <span class="icon">📍</span>
+              <p>123 Music Lane, Studio City, CA 90210</p>
+            </div>
+          </div>
+
+          <form class="contact-form" id="contactForm">
+            <div class="form-grid">
+              <div>
+                <input type="text" id="contactName" placeholder="Your name" required>
+                <div class="input-error" id="contactNameError" aria-live="polite"></div>
+              </div>
+              <div>
+                <input type="email" id="contactEmail" placeholder="Your email" required>
+                <div class="input-error" id="contactEmailError" aria-live="polite"></div>
+              </div>
+            </div>
+            <div>
+              <input type="text" id="contactSubject" placeholder="Subject" required>
+              <div class="input-error" id="contactSubjectError" aria-live="polite"></div>
+            </div>
+            <textarea id="contactMessage" placeholder="Tell us about your project..." rows="4" required></textarea>
+            <button class="btn" type="submit">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="section downloads">
+      <div class="container">
+        <h2>Download Beats & Samples</h2>
+        <p class="section-sub">Free samples and licensed beats available for download.</p>
+        <div class="grid download-grid">
+          <div class="download-card" id="trapVibeSampleCard">
+            <div class="dl-icon">🎵</div>
+            <h3>Trap Vibe Sample</h3>
+            <p>15-second sample of our fire trap beat.</p>
+            <button class="btn-small" id="downloadTrapVibe">⬇️ Download (MP3)</button>
+          </div>
+
+          <div class="download-card" id="drillFlowSampleCard">
+            <div class="dl-icon">🎵</div>
+            <h3>Drill Flow Sample</h3>
+            <p>15-second sample of our drill production.</p>
+            <button class="btn-small" id="downloadDrillFlow">⬇️ Download (MP3)</button>
+          </div>
+
+          <div class="download-card" id="lofiChillSampleCard">
+            <div class="dl-icon">🎵</div>
+            <h3>Lo-Fi Chill Sample</h3>
+            <p>15-second sample of our smooth lo-fi beat.</p>
+            <button class="btn-small" id="downloadLofiChill">⬇️ Download (MP3)</button>
+          </div>
+
+          <div class="download-card" id="fullBeatPackCard">
+            <div class="dl-icon">🎵</div>
+            <h3>Full Beat Pack</h3>
+            <p class="beat-price">$99</p>
+            <p>6 premium beats in one bundle.</p>
+            <button class="btn-small" id="buyFullBeatPack">🛒 Buy</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section upload-section">
+      <div class="container">
+        <h2>Upload & Share Your Tracks</h2>
+        <p class="section-sub">Upload your music files to store, play, and manage them here.</p>
+        
+        <div class="upload-container">
+          <div class="upload-area" id="uploadArea">
+            <div class="upload-icon">📁</div>
+            <h3>Drag & drop your tracks here</h3>
+            <p>or click to browse files (MP3, WAV, OGG)</p>
+            <input type="file" id="fileInput" accept="audio/*" multiple style="display:none;">
+            <button class="btn-small" type="button" id="browseBtn">Browse Files</button>
+          </div>
+
+          <div class="tracks-list">
+            <h3>Your Uploaded Tracks</h3>
+            <div id="tracksList" class="tracks">
+              <p class="empty-state">No tracks uploaded yet. Upload one to get started!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Shopping Cart Modal -->
+  <div id="cartModal" class="modal" style="display: none;">
+    <div class="modal-content cart-modal-content">
+      <div class="modal-header">
+        <h3>🛒 Shopping Cart</h3>
+        <button class="modal-close" id="cartClose">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div id="cartItems" class="cart-items">
+          <p class="empty-state">Your cart is empty</p>
+        </div>
+      </div>
+      <div class="cart-summary">
+        <div class="summary-row">
+          <span>Subtotal:</span>
+          <span id="subtotal">$0.00</span>
+        </div>
+        <div class="summary-row">
+          <span>Tax (10%):</span>
+          <span id="tax">$0.00</span>
+        </div>
+        <div class="summary-row total">
+          <span>Total:</span>
+          <span id="total">$0.00</span>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn-cancel" id="continueShopping">Continue Shopping</button>
+        <button class="btn" id="checkoutBtn">Proceed to Checkout</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Notification Toast -->
+  <div id="notification" class="notification" style="display: none;">
+    <div class="notification-content">
+      <span id="notificationIcon"></span>
+      <span id="notificationMessage"></span>
+    </div>
+  </div>
+
+  <!-- Delete Confirmation Modal -->
+  <div id="deleteModal" class="modal" style="display: none;">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>Delete Track</h3>
+        <button class="modal-close" id="modalClose">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p id="deleteMessage"></p>
+      </div>
+      <div class="modal-footer">
+        <button class="btn-cancel" id="cancelBtn">Cancel</button>
+        <button class="btn-delete" id="confirmDeleteBtn">Delete</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Collaboration Modal -->
+  <div id="collaborationModal" class="modal" style="display: none;">
+    <div class="modal-content" style="max-width: 400px;">
+      <div class="modal-header">
+        <h3>🤝 Collaboration Request</h3>
+        <button class="modal-close" id="closeCollabModal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <form id="collaborationForm">
+          <div class="form-group">
+            <label for="collabYourName">Your Name *</label>
+            <input type="text" id="collabYourName" placeholder="Enter your name" required>
+          </div>
+          <div class="form-group">
+            <label for="collabYourEmail">Your Email *</label>
+            <input type="email" id="collabYourEmail" placeholder="your@email.com" required>
+          </div>
+          <div class="form-group">
+            <label for="collabRapperName">Collaborating With *</label>
+            <input type="text" id="collabRapperName" placeholder="Rapper/Artist name" readonly style="background: rgba(255,255,255,0.03);">
+          </div>
+          <div class="form-group">
+            <label for="collabMessage">Message *</label>
+            <textarea id="collabMessage" placeholder="Tell us about your collaboration idea..." rows="3" required></textarea>
+          </div>
+          <div class="form-group">
+            <label for="collabPhone">Phone Number</label>
+            <input type="tel" id="collabPhone" placeholder="(optional)">
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button class="btn ghost" id="cancelCollabBtn">Cancel</button>
+        <button class="btn" id="submitCollabBtn">Send Request</button>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>© 2025 Music Crib</div>
+      <nav class="foot-nav"><a href="beats.html">Beats</a> · <a href="rappers.html">Rappers</a> · <a href="studio.html">Studio</a></nav>
+      <div class="social-icons">
+        <a href="https://twitter.com" class="social-icon" title="Twitter">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2s9 5 20 5a9.5 9.5 0 00-9-5.5c4.75 2.25 10 2.6 10 2.6z"/></svg>
+        </a>
+        <a href="https://instagram.com" class="social-icon" title="Instagram">
+          <svg viewBox="0 0 24 24" fill="currentColor"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z" fill="#000"/><circle cx="17.5" cy="6.5" r="1.5" fill="#000"/></svg>
+        </a>
+        <a href="https://youtube.com" class="social-icon" title="YouTube">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M22.54 6.42a2.78 2.78 0 00-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 00-1.94 2A29 29 0 001 11.75a29 29 0 00.46 5.33A2.78 2.78 0 003.4 19.54c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 001.94-2 29 29 0 00.46-5.25 29 29 0 00-.46-5.33zM9.75 15.02V8.98l5.92 3.03z"/></svg>
+        </a>
+        <a href="https://facebook.com" class="social-icon" title="Facebook">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a6 6 0 00-6 6v3H7v4h2v8h4v-8h3l1-4h-4V8a1 1 0 011-1h3z"/></svg>
+        </a>
+        <a href="https://spotify.com" class="social-icon" title="Spotify">
+          <svg viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="11" fill="none" stroke="currentColor" stroke-width="1"/><path d="M8 13s1.5.5 4 .5 4-.5 4-.5m-4-3c1 0 2.5.5 3.5.5s1.5-.5 1.5-.5M9 11c.5 0 1 .25 1.5.25s1-.25 1.5-.25"/></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Firebase SDK -->
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-auth-compat.js"></script>
+
+  <script>
+    // Firebase Configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyDfWR3Qs76Hs9T3lOioVakmCACOfZ6tSco",
+      authDomain: "music-crib.firebaseapp.com",
+      databaseURL: "https://music-crib-default-rtdb.firebaseio.com",
+      projectId: "music-crib",
+      storageBucket: "music-crib.firebasestorage.app",
+      messagingSenderId: "977535796190",
+      appId: "1:977535796190:web:fc6fc37023464f5823134f",
+      measurementId: "G-T1WHNRFWTB"
+    };
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    const db = firebase.database();
+    const auth = firebase.auth();
+
+    // Sign in anonymously
+    auth.signInAnonymously().catch((error) => {
+      console.log('Auth error:', error);
+    });
+  </script>
+
+  <!-- Main Script -->
+  <script src="music-script.js"></script>
+</body>
+</html>
